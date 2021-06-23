@@ -1,22 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div class="container">
+    <header>
+      <h2 class="heading">Buttons</h2>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+      <p>created by <span>RayLTCero</span> - devChallenges.io</p>
+    </footer>
+  </div>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+  .container {
+    padding: 53px 82px;
+  }
+
+  header {
+    margin-bottom: 28px;
+  }
+
+  .heading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
 </style>
